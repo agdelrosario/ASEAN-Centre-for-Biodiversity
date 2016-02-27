@@ -1,0 +1,654 @@
+/* Version: 			2.0
+ * Stylesheet Name: 	Cubist
+ * Author:				Aletheia Grace D. del Rosario
+ * Date: 				May 2011 - May 2012
+ * Description: 		Standard styles (unless coded otherwise).
+ */
+
+body
+{
+	margin:				0px;
+	margin-bottom:		0px;
+	background-color:	#CCCCCC;
+	background-image:	url('../images/cubes.png');
+	font-family:		'Lucida Sans', 'Lucida Grande', Helvetica, Verdana, Trebuchet MS;
+	font-size:			9pt;
+}
+
+/* Positioning. */
+
+.center
+{
+	margin:				auto;
+	display:			block;
+}
+
+/* End positioning. */
+
+/* Visibility */
+
+.hidden
+{
+	visibility:			hidden;
+}
+
+.invisible
+{
+	visibility:			hidden;
+	display:			none;
+}
+
+/* End visibility controls. */
+
+/* Headings. */
+
+h1
+{
+	padding:			0px;
+	padding-left:		37px;
+	padding-bottom:		5px;
+	padding-top:		2px;
+	font-weight:		normal;
+	margin:				0px;
+	margin-bottom:		8px;
+	font-size:			14pt;
+	background-size:	28px 28px;
+}
+
+h2
+{
+	font-family:		Georgia;
+	font-weight:		normal;
+	font-style:			italic;
+	font-size:			12pt;
+	border-bottom:		1px solid #DDDDDD;
+	padding-bottom:		5px;
+}
+
+/* End headings. */
+
+/* Anchors. */
+
+a
+{
+	color:				#9d2d4a;
+	text-decoration:	none;
+}
+
+a:hover
+{
+	color:				#444444;
+}
+
+/* End anchor styling. */
+
+/* Upper Page styling */
+
+div#placeholder
+{
+	background-color:	#FFFFFF;
+	border:				1px #BBBBBB solid;
+	box-shadow:			#999999 0px 0px 20px 0px;
+	margin-top:			30px;
+	margin-bottom:		10px;
+	min-height:			450px;
+	padding:			0px;
+	width:				95%;
+	padding-bottom:		10px;
+}
+
+div#placeholder div#panel
+{
+	padding:			15px;
+	padding-left:		15px;
+	background-color:	#000000;
+	font-size:			8pt;
+	color:				#FFFFFF;
+	text-align:			right;
+}
+
+div#placeholder div#panel div#user
+{
+	margin:				0px;
+	padding:			0px;
+}
+
+/* End overall page styling. */
+
+/* Navigation. */
+
+div#placeholder div#panel div#navigation
+{
+	float:				left;
+
+}
+
+div#placeholder div#panel div#navigation ol
+{
+	margin:				0px;
+	padding:			0px;
+}
+
+div#placeholder div#panel li
+{
+	display:			inline;
+}
+
+div#placeholder div#panel a
+{
+	text-decoration:	none;
+	color:				#9d2d4a;
+	background-color:	#DDDDDD;
+	background-position:	center bottom;
+	padding:			3px;
+	padding-left:		10px;
+	padding-right:		10px;
+	-moz-border-radius:	7px;
+	-webkit-border-radius:		7px;
+	border-radius:		7px;
+	margin-right:		2px;
+	background-repeat:	repeat-x;
+}
+
+div#placeholder div#panel a:hover
+{
+	background-color:	#9d2d4a;
+	color:				#FFFFFF;
+}
+
+div#placeholder div#panel a#current_class
+{
+	background-color:	#9d2d4a;
+	color:				#FFFFFF;
+}
+
+/* End Navigation stylings. */
+
+/* Information box. */
+
+div#info
+{
+	background-color:	#EEEEEE;
+	margin:				0px;
+	margin-top:			10px;
+	margin-bottom:		10px;
+	padding:			5px;
+	color:				#666666;
+	padding-left:		38px;
+	background-image:	url('../images/icons/icon_info2.png');
+	background-repeat:	no-repeat;
+	background-position:	6px 5px;
+	-moz-border-radius:	7px;
+	-webkit-border-radius:		7px;
+	border-radius:		7px;
+	font-size:			9pt;
+	min-height:			27px;
+}
+
+div#info a
+{
+	color:				#b0677a;
+	text-decoration:	none;
+}
+
+div#info a:hover
+{
+	color:				#9d2d4a;
+	text-decoration:	none;
+}
+
+div#info b, div#info strong
+{
+	color:				#000000;
+}
+
+div#info span#date
+{
+	font-size:			7pt;
+	text-transform:		uppercase;
+}
+
+/* End information box. */
+
+/* Form styling. */
+
+form#myform fieldset
+{
+	border:				1px solid #E5E5E5;
+	margin-bottom:		10px;
+}
+
+form#myform fieldset legend
+{
+	padding-left:		10px;
+	padding-right:		10px;
+	font-weight:		bold;
+	color:				#088e56;
+}
+
+form#myform fieldset select
+{
+	padding:			5px;
+	font-family:		'Lucida Sans', 'Lucida Grande', Helvetica, Verdana, Trebuchet MS;
+	font-size:			9pt;
+	border:				1px solid #9ec8b7;
+}
+
+form#myform fieldset select.wider
+{
+	width:				100%;
+}
+
+form#myform fieldset select:hover, form#myform fieldset input:hover
+{
+	background-color:	#0ca465;
+	border:				1px solid #0ca465;
+	color:				#FFFFFF;
+}
+
+form#myform fieldset input, form#myform fieldset textarea
+{
+	padding:			5px;
+	width:				98%;
+	font-family:		'Lucida Sans', 'Lucida Grande', Helvetica, Verdana, Trebuchet MS;
+	font-size:			9pt;
+	border:				1px solid #9ec8b7;
+}
+
+form#myform fieldset table td:nth-child(odd)
+{
+	width:				15%;
+}
+
+form#myform input[type=submit], form#myform button, #button
+{
+	background-color:	#0ca465;
+	border:				0px;
+	color:				#FFFFFF;
+	font-family:		'Lucida Sans', 'Lucida Grande', Helvetica, Verdana, Trebuchet MS;
+	font-size:			9pt;
+	padding:			5px;
+	padding-left:		8px;
+	padding-right:		8px;
+	-moz-border-radius:	7px;
+	-webkit-border-radius:		7px;
+	border-radius:		7px;
+}
+
+#button
+{
+	margin-left:		2px;
+	margin-right:		2px;
+}
+
+form#myform input[type=submit]:hover, form#myform button:hover, #button:hover
+{
+	background-color:	#9d2d4a;
+	color:				#FFFFFF;
+	border:				0px;
+}
+
+form#myform input[type=checkbox]
+{
+	width:				auto;
+}
+
+form#myform div#traversal
+{
+	width:				100%;
+	text-align:			center;
+}
+
+/* End of form styling. */
+
+div.error
+{
+	color:				#9d2d4a;
+	margin-bottom:		10px;
+}
+
+table
+{
+	width:				100%;
+}
+
+table.notmuchspace
+{
+	border-spacing:		0px;
+	padding:			0px;
+	margin:				0px;
+}
+
+table.notmuchspace td
+{
+	vertical-align:		top;
+}
+
+table.notmuchspace td:first-child
+{
+	padding-right:		10px;
+}
+
+/* Footer. */
+
+div#footer
+{
+	font-size:			8pt;
+	width:				95%;
+	margin-bottom:		20px;
+}
+
+div#footer a
+{
+	text-decoration:	none;
+	color:				#666666;
+}
+
+div#footer a:hover
+{
+	color:				#444444;
+}
+
+/* Subnavigation. */
+
+div#subnav
+{
+	background-color:	#EEEEEE;
+	border-bottom:		4px solid #AAAAAA;
+	padding-top:		10px;
+	padding-bottom:		10px;
+	margin-bottom:		10px;
+}
+
+div#subnav ol
+{
+	margin:				0px;
+	padding:			0px;
+	border-spacing:		0px;
+}
+
+div#subnav ol li
+{
+	display:			inline;
+	margin:				0px;
+	padding:			0px;
+}
+
+div#subnav a
+{
+	padding:			10px;
+	padding-left:		20px;
+	padding-right:		20px;
+	color:				#000000;
+	text-decoration:	none;
+}
+
+div#subnav a:hover
+{
+	background-color:	#DDDDDD;
+}
+
+div#subnav a#selected
+{
+	background-color:	#DDDDDD;
+	border-bottom:		4px solid #0ca465;
+}
+
+div#subnav div#searchbar
+{
+	float:				right;
+	padding:			0px;
+	margin:				0px;
+	margin-top:			-10px;
+	border-left:		1px solid #DDDDDD;
+}
+
+div#subnav div#searchbar form
+{
+	padding:			8px;
+	padding-bottom:		7px;
+}
+
+div#subnav div#searchbar form input
+{
+	background-color:	transparent;
+	border:				0px;
+	margin-top:			0px;
+	font-family:		'Lucida Sans', 'Lucida Grande', Helvetica, Verdana, Trebuchet MS;
+}
+
+div#subnav div#searchbar form input:hover
+{
+	color:				#9d2d4a;
+}
+
+div#subnav div#searchbar form input[type=submit]
+{
+	background:			url('../images/icons/icon_search.png');
+	background-repeat:	no-repeat;
+	background-position:	0px -2px;
+	border:				0px;
+	font-family:		'Lucida Sans', 'Lucida Grande', Helvetica, Verdana, Trebuchet MS;
+	color:				#FFFFFF;
+	width:				20px;
+}
+
+div#subnav div#searchbar form input[type=submit]:hover
+{
+	background:			url('../images/icons/icon_search1.png');
+	background-repeat:	no-repeat;
+	background-position:	0px -2px;
+}
+
+/* End subnavigation. */
+
+/* Main content of the travel order or trip ticket pages. */
+
+div#documents table tr th
+{
+	background-color:	#DDDDDD;
+	text-transform:		uppercase;
+}
+
+div#documents table tr th:first-child
+{
+	-moz-border-top-left-radius:	7px;
+	-webkit-border-top-left-radius:		7px;
+	border-top-left-radius:		7px;
+	-moz-border-bottom-left-radius:	7px;
+	-webkit-border-bottom-left-radius:		7px;
+	border-bottom-left-radius:		7px;
+}
+
+div#documents table tr th:last-child
+{
+	-moz-border-top-right-radius:	7px;
+	-webkit-border-top-right-radius:		7px;
+	border-top-right-radius:		7px;
+	-moz-border-bottom-right-radius:	7px;
+	-webkit-border-bottom-right-radius:		7px;
+	border-bottom-right-radius:		7px;
+}
+
+div#documents table tr td
+{
+	border-bottom:		1px solid #EEEEEE;
+	padding-top:		7px;
+	padding-bottom:		7px;
+	text-align:			center;
+}
+
+div#documents table tr td input[type=checkbox]
+{
+	margin:				0px;
+	padding:			0px;
+}
+
+div#documents table tr:hover td
+{
+	background-color:	#F4F4F4;
+}
+
+div#documents table tr:first-child:hover td:first-child
+{
+	-moz-border-top-left-radius:	7px;
+	-webkit-border-top-left-radius:		7px;
+	border-top-left-radius:		7px;
+}
+
+div#documents table tr:first-child:hover td:last-child
+{
+	-moz-border-top-right-radius:	7px;
+	-webkit-border-top-right-radius:		7px;
+	border-top-right-radius:		7px;
+}
+
+div#documents table tr:last-child:hover td:first-child
+{
+	-moz-border-bottom-left-radius:	7px;
+	-webkit-border-bottom-left-radius:		7px;
+	border-bottom-left-radius:		7px;
+}
+
+div#documents table tr:last-child:hover td:last-child
+{
+	-moz-border-bottom-right-radius:	7px;
+	-webkit-border-bottom-right-radius:		7px;
+	border-bottom-right-radius:		7px;
+}
+
+div#documents table tr:last-child td
+{
+	border:				0px;
+}
+
+div#documents form div#actions
+{
+	text-align:			right;
+	margin-bottom:		10px;
+}
+
+div#documents form div#actions input[type=submit]
+{
+	margin:				0px;
+	margin-left:		5px;
+}
+
+div#documents table tr td a#sublink
+{
+	background-color:	#0ca465;
+	border:				0px;
+	color:				#FFFFFF;
+	font-family:		'Lucida Sans', 'Lucida Grande', Helvetica, Verdana, Trebuchet MS;
+	font-size:			8pt;
+	padding:			3px;
+	-moz-border-radius:	4px;
+	-webkit-border-radius:		4px;
+	border-radius:		4px;
+	margin:				0px;
+}
+
+div#documents table tr td a#sublink:hover
+{
+	background-color:	#9d2d4a;
+	color:				#FFFFFF;
+}
+
+div#pagination
+{
+	background-color:	#DDDDDD;
+	-moz-border-radius:	7px;
+	-webkit-border-radius:		7px;
+	border-radius:		7px;
+	padding:			5px;
+	text-align:			left;
+	padding-right:		10px;
+	padding-left:		10px;
+}
+
+div#pagination a, div#pagination strong
+{
+	padding:			5px;
+}
+
+div#pagination a:hover
+{
+	background-color:	#0ca465;
+	padding:			5px;
+	color:				#FFFFFF;
+}
+
+div#pagination div#links
+{
+	float:				right;
+}
+
+/* End main content. */
+	
+/* Buttons. */
+a.linker#add
+{
+	background-color:	#EEEEEE;
+	padding:			8px;
+	font-size:			9pt;
+	-moz-border-radius:	7px;
+	-webkit-border-radius:		7px;
+	border-radius:		7px;
+	color:				#000000;
+	text-decoration:	none;
+	padding-left:		29px;
+	background-image:	url('../images/icons/icon_addnew.png');
+	background-repeat:	no-repeat;
+	background-position:	5px 5px;
+	float:				right;
+	margin-left:		7px;
+}
+
+a.linker#add:hover
+{
+	background-color:	#9d2d4a;
+	background-image:	url('../images/icons/icon_addnew_hover.png');
+	background-repeat:	no-repeat;
+	background-position:	5px 5px;
+	color:				#FFFFFF;
+}
+
+/* End buttons. */
+
+
+div#placeholder div#content
+{
+	padding:			10px;
+	padding-bottom:		0px;
+	margin:				0px;
+}
+
+table p
+{
+	margin:				0px;
+}
+
+table#bigcal th
+{
+	padding:		5px;
+}
+
+table#bigcal a
+{
+	font-weight:		bold;
+	text-decoration:	underline;
+}
+
+table#bigcal th a
+{
+	text-decoration:	none;
+}
+
+.scroll
+{
+	overflow:		auto;
+	max-height:		200px;
+}
+
+/* End of file style.css */
+/* Location: ./css/style.css */

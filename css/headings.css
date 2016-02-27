@@ -1,0 +1,48 @@
+/* Version: 			2.0
+ * Stylesheet Name: 	Cubist
+ * Author:				Aletheia Grace D. del Rosario
+ * Date: 				May 2011 - May 2012
+ * Description: 		Styles for the main headings of classes.
+ */
+ 
+h1.home {
+	background-image:	url('../images/icons/icon_home.png');
+	background-repeat:	no-repeat;
+	background-position:	top left;
+}
+
+h1.travelorders {
+	background-image:	url('../images/icons/icon_travelorder.png');
+	background-repeat:	no-repeat;
+	background-position:	top left;
+}
+
+h1.triptickets {
+	background-image:	url('../images/icons/icon_tripticket.png');
+	background-repeat:	no-repeat;
+	background-position:	top left;
+}
+
+h1.manual {
+	background-image:	url('../images/icons/icon_manual.png');
+	background-repeat:	no-repeat;
+	background-position:	top left;
+}
+
+h1.reports {
+	background-image:	url('../images/icons/icon_reports.png');
+	background-repeat:	no-repeat;
+	background-position:	top left;
+}
+
+h1.administration {
+	background-image:	url('../images/icons/icon_administration.png');
+	background-repeat:	no-repeat;
+	background-position:	top left;
+}
+
+h1.settings {
+	background-image:	url('../images/icons/icon_settings.png');
+	background-repeat:	no-repeat;
+	background-position:	top left;
+}

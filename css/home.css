@@ -1,0 +1,189 @@
+/* Version: 			2.0
+ * Stylesheet Name: 	Cubist
+ * Author:				Aletheia Grace D. del Rosario
+ * Date: 				May 2011 - May 2012
+ * Description: 		Style specifics for the home page.
+ */
+ 
+/* Three-column styling. */
+
+div.three-columns
+{
+
+}
+
+div.three-columns div h1, div#logs h1
+{
+	font-size:			9pt;
+	text-transform:		uppercase;
+	padding:			5px;
+	background-color:	#0ca465;
+	color:				#FFFFFF;
+	font-weight:		bold;
+	padding-left:		6px;
+	margin-bottom:		10px;
+}
+
+div.three-columns div#first, div.three-columns div#second, div.three-columns div#third
+{
+	float:				left;
+	display:			inline;
+	margin-bottom:		10px;
+}
+
+div.three-columns div#first div, div.three-columns div#second div, div.three-columns div#third div
+{
+	padding-bottom:		0px;
+	background-color:	#F9F9F9;
+}
+
+div.three-columns div div a#linker
+{
+	background-color:	#EEEEEE;
+	text-align:			right;
+	display:			block;
+	padding:			5px;
+	padding-right:		10px;
+	text-decoration:	none;
+	color:				#9d2d4a;
+	margin-top:			10px;
+	font-size:			8pt;
+}
+
+div.three-columns div div ol li
+{
+	line-height:		20px;
+}
+
+div.three-columns div div a#linker:hover
+{
+	color:				#000000;
+}
+
+div.three-columns div#third
+{
+	width:				32%;
+}
+
+div.three-columns div#first, div.three-columns div#second
+{
+	width:				33%;
+	padding-right:		1%;
+}
+
+div.three-columns table
+{
+	width:				100%;
+	font-size:			9pt;
+}
+
+div.three-columns table tr td
+{
+	text-align:			center;
+	padding:			3px;
+}
+
+div.three-columns table tr th, div#logs table tr th
+{
+	font-weight:		bold;
+	border-bottom:		1px solid #E9E9E9;
+	color:				#9d2d4a;
+	padding:			3px;
+	text-transform:		uppercase;
+	font-size:			8pt;
+}
+
+/* End three-column styling. */
+
+/* Logs on home page styling. */
+
+div#logs
+{
+	display:			block;
+	width:				100%;
+	background-color:	#F9F9F9;
+	border-bottom:		7px solid #EEEEEE;
+	padding-bottom:		10px;
+	clear:				both;
+}
+
+div#logs p, div.three-columns div div p
+{
+	padding:			0px;
+	padding-left:		10px;
+	padding-right:		10px;
+	margin:				0px;
+}
+
+div#logs a#linker
+{
+	float:				right;
+	padding:			5px;
+	font-size:			8pt;
+	color:				#FFFFFF;
+	text-decoration:	none;
+	padding-right:		10px;
+}
+
+div#logs a#linker:hover
+{
+	color:				#000000;
+}
+
+div#logs table
+{
+	width:				100%;
+	text-align:			center;
+}
+
+/* End logs on home styling. */
+
+/* Mini calendar styling. */
+
+table#minical
+{
+	width:				100%;
+	margin:				0px;
+	padding:			0px;
+	border-spacing:		0px;
+}
+
+table#minical tr td
+{
+	text-align:			center;
+	padding:			3px;
+}
+
+table#minical tr th
+{
+	border:				0px;
+	padding:			0px;
+}
+
+table#minical tr:nth-child(2) td
+{
+	font-weight:		bold;
+	border-bottom:		1px solid #E9E9E9;
+	color:				#9d2d4a;
+	text-transform:		uppercase;
+	font-size:			8pt;
+}
+
+table#minical span.highlight
+{
+	font-weight:		bold;
+	border-bottom:		3px solid #BBBBBB;
+}
+
+table#minical a
+{
+	text-decoration:	none;
+	color:				#9d2d4a;
+}
+
+table#minical a:hover
+{
+	color:				#000000;
+}
+
+/* Mini calendar styling. */
